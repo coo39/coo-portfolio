@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>kasane</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="./css/import.css">
+</head>
+<body class="body">
+<header id="header" class="js-float-menu">
+    <h1></h1>
+    <div class="p-header-title">
+        <p class="c-header-title u-header-title">Syu's Portforio</p>
+    </div>
+    <div class="p-menu-trigger js-toggle-sp-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav class="p-nav-menu js-toggle-sp-menu-target">
+            <ul class="c-menu">
+            <li class="c-menu-item u-menu-item"><a class="c-menu__link" href="">TOP</a></li>
+            <li class="c-menu-item u-menu-item"><a class="c-menu__link" href="#about">About</a></li>
+            <li class="c-menu-item u-menu-item"><a class="c-menu__link" href="#skill">Skill</a></li>
+            <li class="c-menu-item u-menu-item"><a class="c-menu__link" href="#works">Works</a></li>
+            </ul>
+    </nav>
+</header>
+<main id="main">
+        <section class="p-hero p-container-fluid js-float-menu-target" id="hero">
+            <div class="p-hero-title">
+                <p class="c-hero-title u-hero-title">Syu's Portforio</p>
+            </div>
+            <div class="p-circles">
+                <figure class="p-circle">
+                    <div class="c-circle is-red"></div>
+                    <figcaption class="c-circle is-orange"></figcaption>
+                    <figcaption class="c-circle is-yellow"></figcaption>
+                </figure>
+             </div>
+        </section>
+        <section class="container p-prof c-container" id="about">
+            <div class="p-prof__title">
+                <h2 class="c-container__title u-container__title">
+                    <span class="c-container__title-txt">About</span>
+                </h2>
+            </div>
+            <div class="p-profile u-profile">
+                <div class="p-prof__img c-container__img  u-prof__img is-active">
+                    <div class="p-prof__list is-active u-prof__list">
+                        <ul class="c-prof-list u-prof-list">
+                            <li class="c-prof-lists"><span class="c-prof-lists is-point">名前 : </span>SYU</li>
+                            <li class="c-prof-lists"><span class="c-prof-lists is-point">年齢 : </span>29</li>
+                            <li class="c-prof-lists"><span class="c-prof-lists is-point">出身地 : </span>愛知県</li>
+                            <li class="c-prof-lists"><span class="c-prof-lists is-point">趣味 : </span>旅行、読書、写真</li>
+                        </ul>
+                        <p class="c-prof-text">
+                            大学卒業後、地元のスーパーに就職しました。<br>
+                            4年間勤務した後、手に職をつけるため、IT業界へ転職を決意しました。<br>
+                            現在は名古屋のSESで業務アプリケーションの改修に従事しております。<br>
+                            2019年５月よりフロントサイドの学習を開始。<br>
+                            学習内容は毎日Twitterにて報告しております。<br>
+                            お客様に寄り添えるようなエンジニアになりたいです。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="skill">
+            <div class="p-prof__title">
+                <h2 class="c-container__title u-container__title">
+                    <span class="c-container__title-txt">Skill</span>
+                </h2>
+            </div>
+            <div class="p-skill">
+                <div class="p-skill__container u-skill__container">
+                    <div class="p-skill__container__maru c-skillImg u-skill is-orange">
+                        <img src="images/front_gr2.png" alt="" class="c-skillImg__img u-skill__img">
+                    </div>
+                    <div class="c-skillTxt u-skillTxt">
+                        <h1 class="c-skillTxt-ti u-skillTxt__style--ti">フロントエンド</h1>
+                        <p class="c-skillTxt-ex u-skillTxt__style--ex">ホームページの作成、簡単なアニメーションを付けることが出来ます。</p>
+                        <p class="c-skillTxt-bc u-skillTxt__style--bc">HTML/CSS/JQuery/JavaScript</p>
+                    </div>
+                </div>
+                <div class="p-skill__container u-skill__container">
+                    <div class="p-skill__container__maru c-skillImg u-skill is-yellow">
+                        <img src="images/back_gr2.png" alt="" class="c-skillImg__img u-skill__img">
+                    </div>
+                    <div class="c-skillTxt u-skillTxt">
+                        <h1 class="c-skillTxt-ti u-skillTxt__style--ti">バックエンド</h1>
+                        <p class="c-skillTxt-ex u-skillTxt__style--ex">簡単なWebサービスの仕組みが作れます。改修、テストが可能です。</p>
+                        <p class="c-skillTxt-bc u-skillTxt__style--bc">Java/PHP</p>
+                    </div>
+                </div>
+                <div class="p-skill__container u-skill__container">
+                    <div class="p-skill__container__maru c-skillImg u-skill is-orange">
+                        <img src="images/tool_gr2.png" alt="" class="c-skillImg__img u-skill__img">
+                    </div>
+                    <div class="c-skillTxt u-skillTxt">
+                        <h1 class="c-skillTxt-ti u-skillTxt__style--ti">その他</h1>
+                        <p class="c-skillTxt-ex u-skillTxt__style--ex">開発を便利にするツールやフレームワークを習得中です。</p>
+                        <p class="c-skillTxt-bc u-skillTxt__style--bc">Wordpress/Sass/git</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="works">
+            <div class="p-grid">
+                <div class="p-prof__title">
+                    <h2 class="c-container__title u-container__title">
+                        <span class="c-container__title-txt">Works</span>
+                    </h2>
+                </div>
+                <div class="p-works">
+                    <div class="p-works__unit">
+                        <div class="is-img_wrap js-modal-open1">
+                            <img src="images/moji.png" alt="" class="c-works__img">
+                            <div class="c-work__mask">
+                                <div class="c-work__mask__caption">read more...</div>
+                            </div>
+                        </div>
+                        <div class="is-img_wrap js-modal-open2">
+                            <img src="images/wordpress.png" alt="" class="c-works__img">
+                            <div class="c-work__mask">
+                                <div class="c-work__mask__caption">read more...</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-works__unit">
+                        <div class="is-img_wrap js-modal-open3">
+                            <img src="images/arice.png" alt="" class="c-works__img">
+                            <div class="c-work__mask">
+                                <p class="c-work__mask__caption">read more...</p>
+                            </div>
+                        </div>
+                        <div class="is-img_wrap js-modal-open4">
+                            <img src="images/hon.png" alt="" class="c-works__img">
+                            <div class="c-work__mask">
+                                <p class="c-work__mask__caption">read more...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-works__unit">
+                        <div class="is-img_wrap js-modal-open5">
+                            <img src="images/port.png" alt="" class="c-works__img">
+                            <div class="c-work__mask">
+                                <p class="c-work__mask__caption">read more...</p>
+                            </div>
+                        </div>
+                        <div class="is-img_wrap js-modal-open5" style="background:#777; opacity:0.0">
+                            <img src="" alt="" class="c-works__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal js-modal js-modal1">
+                <div class="modal__bg js-modal-close"></div>
+                <div class="p-works-detail-container modal__content">
+                    <div class="p-works-detail">
+                        <div class="p-works-detail__content">
+                            <div class="c-works-pic u-works-pic">
+                                <img src="images/moji.png" alt="" class="c-works-pic__main u-works-pic__main">
+                            </div>
+                            <div class="c-works-pic">
+                                <ul class="c-works-pic__list">
+                                    <li class="c-works-pic__li"><img src="images/moji.png" alt="" class="c-works-pic__sub u-works-pic__sub sub1"></li>
+                                    <li class="c-works-pic__li"><img src="images/moji2.png" alt="" class="c-works-pic__sub u-works-pic__sub"></li>
+                                    <li class="c-works-pic__li"><img src="images/moji3.png" alt="" class="c-works-pic__sub u-works-pic__sub"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="c-works-detail-text">
+                            <div class="c-works-detail-text">
+                                <h1 class="c-works-detail-text__title u-works-detail-title">Discription</h1>
+                            </div>
+                            <div class="c-works-detail-text">
+                                <p class="c-works-detail-text__txt u-works-detail-text__txt">
+                                    JavaScriptの練習のため作成。ブログ作成のため、文字数と特定のキーワードをカウントすることが可能。<br><br>
+                                    使用言語 : HTML/CSS/JavaSctipt
+                                </p>
+                                <div class="c-works-detail-text__close">
+                                    <a class="js-modal-close" href="">閉じる</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal js-modal js-modal2">
+                <div class="modal__bg js-modal-close"></div>
+                <div class="p-works-detail-container modal__content">
+                    <div class="p-works-detail">
+                        <div class="p-works-detail__content">
+                            <div class="c-works-pic u-works-pic">
+                                <img src="images/wordpress.png" alt="" class="c-works-pic__main u-works-pic__main">
+                            </div>
+                            <div class="c-works-pic">
+                                <ul class="c-works-pic__list">
+                                    <li class="c-works-pic__li"><img src="images/wordpress.png" alt="" class="c-works-pic__sub u-works-pic__sub sub2"></li>
+                                    <li class="c-works-pic__li"><img src="images/wp2.png" alt="" class="c-works-pic__sub u-works-pic__sub"></li>
+                                    <li class="c-works-pic__li"><img src="images/wp3.png" alt="" class="c-works-pic__sub u-works-pic__sub"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="c-works-detail-text">
+                            <div class="c-works-detail-text">
+                                <h1 class="c-works-detail-text__title u-works-detail-title">Discription</h1>
+                            </div>
+                            <div class="c-works-detail-text">
+                                <p class="c-works-detail-text__txt u-works-detail-text__txt">
+                                    Wordpressの簡単なテーマ作成。繰り返し処理など、独特な関数や構造理解を目指した。<br><br>
+                                    使用言語 : HTML/CSS/PHP
+                                </p>
+                                <div class="c-works-detail-text__close">
+                                    <a class="js-modal-close" href="">閉じる</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal js-modal js-modal3">
+                <div class="modal__bg js-modal-close"></div>
+                <div class="p-works-detail-container modal__content">
+                    <div class="p-works-detail">
+                        <div class="p-works-detail__content">
+                            <div class="c-works-pic u-works-pic">
+                                <img src="images/arice.png" alt="" class="c-works-pic__main u-works-pic__main">
+                            </div>
+                            <div class="c-works-pic">
+                                <ul class="c-works-pic__list">
+                                    <li class="c-works-pic__li"><img src="images/arice.png" alt="" class="c-works-pic__sub u-works-pic__sub sub3"></li>
+                                    <li class="c-works-pic__li"><img src="images/arice2.png" alt="" class="c-works-pic__sub u-works-pic__sub"></li>
+                                    <li class="c-works-pic__li"><img src="images/arice3.png" alt="" class="c-works-pic__sub u-works-pic__sub"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="c-works-detail-text">
+                            <div class="c-works-detail-text">
+                                <h1 class="c-works-detail-text__title u-works-detail-title">Discription</h1>
+                            </div>
+                            <div class="c-works-detail-text">
+                                <p class="c-works-detail-text__txt u-works-detail-text__txt">
+                                    オブジェクト指向理解の一環として簡単なゲームを作成。残りHPやキャラクターによって動きに変化を付けた。<br><br>
+                                    使用言語 : HTML/CSS/PHP/JavaScript/JQuery
+                                </p>
+                                <div class="c-works-detail-text__close">
+                                    <a class="js-modal-close" href="">閉じる</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal js-modal js-modal4">
+                <div class="modal__bg js-modal-close"></div>
+                <div class="p-works-detail-container modal__content">
+                    <div class="p-works-detail">
+                        <div class="p-works-detail__content">
+                            <div class="c-works-pic u-works-pic">
+                                <img src="images/hon.png" alt="" class="c-works-pic__main u-works-pic__main">
+                            </div>
+                            <div class="c-works-pic">
+                                <ul class="c-works-pic__list">
+                                    <li class="c-works-pic__li"><img src="images/hon.png" alt="" class="c-works-pic__sub u-works-pic__sub sub4"></li>
+                                    <li class="c-works-pic__li"><img src="images/hon2.png" alt="" class="c-works-pic__sub u-works-pic__sub"></li>
+                                    <li class="c-works-pic__li"><img src="images/hon3.png" alt="" class="c-works-pic__sub u-works-pic__sub"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="c-works-detail-text">
+                            <div class="c-works-detail-text">
+                                <h1 class="c-works-detail-text__title u-works-detail-title">Discription</h1>
+                            </div>
+                            <div class="c-works-detail-text">
+                                <p class="c-works-detail-text__txt u-works-detail-text__txt">
+                                    Webサービス学習の一環で書籍管理サービスを作成。MySQLを使用し、DB設計から作成した。CSS設計、DB設計のスキル不足を痛感した。<br><br>
+                                    使用言語 : HTML/CSS/PHP
+                                </p>
+                                <div class="c-works-detail-text__close">
+                                    <a class="js-modal-close" href="">閉じる</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal js-modal js-modal5">
+                <div class="modal__bg js-modal-close5"></div>
+                <div class="p-works-detail-container modal__content">
+                    <div class="p-works-detail">
+                        <div class="p-works-detail__content">
+                            <div class="c-works-pic u-works-pic">
+                                <img src="images/port.png" alt="" class="c-works-pic__main u-works-pic__main">
+                            </div>
+                            <div class="c-works-pic">
+                                <ul class="c-works-pic__list">
+                                    <li class="c-works-pic__li"><img src="images/port.png" alt="" class="c-works-pic__sub u-works-pic__sub sub5"></li>
+                                    <li class="c-works-pic__li"><img src="images/port2.png" alt="" class="c-works-pic__sub u-works-pic__sub"></li>
+                                    <li class="c-works-pic__li"><img src="images/port3.png" alt="" class="c-works-pic__sub u-works-pic__sub"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="c-works-detail-text">
+                            <div class="c-works-detail-text">
+                                <h1 class="c-works-detail-text__title u-works-detail-title">Discription</h1>
+                            </div>
+                            <div class="c-works-detail-text">
+                                <p class="c-works-detail-text__txt u-works-detail-text__txt">
+                                    Sass、CSS設計の練習も兼ねて作成。保守性を意識して書いた。レスポンシブ対応の練習にもなった。<br><br>
+                                    使用言語 : HTML/CSS/JavaSctipt/JQuery
+                                </p>
+                                <div class="c-works-detail-text__close">
+                                    <a class="js-modal-close5" href="">閉じる</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+</main>
+<footer id="footer" class="footer">
+    <div class="p-footer c-footer u-footer__maru">
+        <script>
+            $(function () {
+                $('.js-tw-txt ').arctext({
+                    radius: 100
+                });
+            });
+        </script>
+        <p class="js-tw-txt c-tw-txt">\Twitter/</p>
+        <div class="c-maru is-small"></div>
+        <a href="https://twitter.com/syu01182" class="c-footer-icon">
+            <i class="fab fa-twitter twitter-color"></i>
+        </a>
+    </div>
+ </footer>
+ <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+    <script src="./js/app.js"></script>
+    <script type="text/javascript" src="./js/jquery.arctext.js"></script>
+</body>
+</html>

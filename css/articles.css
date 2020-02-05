@@ -1,0 +1,187 @@
+@charset "UTF-8";
+html, body {
+  width: 100%;
+  color: #777;
+  font-size: 16px;
+  font-weight: 00;
+  line-height: 1.6;
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  text-size-adjust: 100%;
+  letter-spacing: 0.1em; }
+
+p, a {
+  -webkit-font-smoothing: antialiased; }
+
+a {
+  color: #444;
+  text-decoration: none;
+  transition: .3s; }
+
+a:hover {
+  color: #e3d7a8;
+  transition: .3s;
+  text-decoration: none; }
+
+img {
+  width: 100%;
+  vertical-align: bottom; }
+
+body.fixed {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0; }
+
+.p-header-title {
+  position: absolute;
+  left: 1%;
+  top: 30%; }
+
+.p-circles {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+.p-circle {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 15%; }
+  @media screen and (max-width: 414px) {
+    .p-circle {
+      left: 27%;
+      top: 30%; } }
+
+.p-container-text {
+  width: 80%;
+  font-size: 18px;
+  margin: 0 auto;
+  margin-bottom: 30px; }
+
+.p-container-img {
+  height: 30%;
+  width: 80%;
+  margin: 0 auto; }
+
+.p-hero-title {
+  position: relative;
+  z-index: 3; }
+
+.p-sub-title {
+  color: white; }
+
+.p-prof__list {
+  position: relative;
+  top: 100px; }
+  @media screen and (max-width: 414px) {
+    .p-prof__list {
+      top: -40px; } }
+
+.p-prof__img {
+  max-width: 50%;
+  margin: auto; }
+  @media screen and (max-width: 414px) {
+    .p-prof__img {
+      margin: auto;
+      max-width: 100%; } }
+  @media screen and (max-width: 768px) and (min-width: 415px) {
+    .p-prof__img {
+      text-align: center;
+      margin: auto; } }
+
+.p-profile {
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.7);
+  margin: auto; }
+  @media screen and (max-width: 414px) {
+    .p-profile {
+      width: 350px;
+      height: 350px;
+      display: block;
+      position: relative;
+      top: 60px; } }
+  @media screen and (max-width: 768px) and (min-width: 415px) {
+    .p-profile {
+      display: block; } }
+
+.p-caracter {
+  width: 80%;
+  margin: auto;
+  display: flex; }
+  @media screen and (max-width: 414px) {
+    .p-caracter {
+      display: block; } }
+  @media screen and (max-width: 768px) and (min-width: 415px) {
+    .p-caracter {
+      width: 100%;
+      display: block; } }
+
+.p-panel {
+  margin: 15px; }
+
+.p-skill {
+  width: 100%;
+  height: 600px;
+  display: flex; }
+  @media screen and (max-width: 414px) {
+    .p-skill {
+      display: block; } }
+  @media screen and (max-width: 768px) and (min-width: 415px) {
+    .p-skill {
+      display: block; } }
+  .p-skill__container {
+    width: 100%;
+    height: 100%;
+    margin: 50px; }
+    @media screen and (max-width: 414px) {
+      .p-skill__container {
+        height: 60%;
+        width: auto;
+        margin: 20px;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 3%; } }
+    @media screen and (max-width: 768px) and (min-width: 415px) {
+      .p-skill__container {
+        margin: 0px;
+        height: 85%; } }
+    .p-skill__container__maru {
+      text-align: center; }
+
+.p-works {
+  width: 80%;
+  margin: auto; }
+  @media screen and (max-width: 414px) {
+    .p-works {
+      width: 100%; } }
+  @media screen and (max-width: 414px) {
+    .p-works-detail {
+      width: 100%;
+      margin: auto; } }
+  .p-works-detail__content {
+    width: 100%;
+    height: 50%; }
+  .p-works__unit {
+    width: 100%;
+    text-align: center;
+    display: flex; }
+    @media screen and (max-width: 414px) {
+      .p-works__unit {
+        display: block; } }
+    @media screen and (max-width: 768px) and (min-width: 415px) {
+      .p-works__unit {
+        display: block; } }
+
+.p-footer {
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+  @media screen and (max-width: 414px) {
+    .p-footer {
+      top: 35%;
+      right: 28%; } }
+  @media screen and (max-width: 768px) and (min-width: 415px) {
+    .p-footer {
+      top: 32%;
+      right: 38%; } }
